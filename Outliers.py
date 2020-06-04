@@ -6,6 +6,7 @@ class Outlier_detector_and_remover :
 
 		* 'TUKEY_outlier_detector' >> Detection of outliers in a feature of a dataframe, utilising IQR.
 		* 'TUKEY_outlier_remover' >> Removal of outliers in a feature of a dataframe, utilising IQR.
+        * 'operate' >> To carry out the desired method between 'detection' and 'removal'
 
 	Class parameters are as follows :
 		* dataframe - name of the dataframe of the data in use.
